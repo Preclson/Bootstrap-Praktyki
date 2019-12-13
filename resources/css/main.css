@@ -69,3 +69,23 @@ html, body{
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
+@media (max-width: 991.98px) {
+    .navbar-vertical{
+        position: relative;
+        bottom: 0;
+    }
+    
+    .navbar-vertical ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-vertical li{
+        margin-right: .4rem;
+    }
+
+    .navbar-horizontal{
+        position: relative;
+    }
+}
