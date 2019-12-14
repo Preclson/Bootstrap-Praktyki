@@ -7,6 +7,22 @@ html, body{
     font-family: 'Raleway', sans-serif !important;
 }
 
+.header{
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: url("../img/keyboard.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+}
+
 .navbar-vertical{
     position: fixed;
     bottom: 1rem;
@@ -16,6 +32,10 @@ html, body{
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.navbar-vertical li:nth-child(1) a{
+    font-weight: 700;
 }
 
 .navbar-vertical a{
@@ -66,9 +86,9 @@ html, body{
 }
 
 @media (max-width: 991.98px) {
+
     .navbar-vertical{
-        position: relative;
-        bottom: 0;
+        display: none;
     }
     
     .navbar-vertical ul{
@@ -78,6 +98,10 @@ html, body{
 
     .navbar-vertical li{
         margin-right: .4rem;
+    }
+
+    .navbar-mobile{
+        display: block;
     }
 
     .navbar-horizontal{
