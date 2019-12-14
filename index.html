@@ -15,16 +15,16 @@
     <script src="https://kit.fontawesome.com/ab3eab1ff2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--
-    <div class="container-fluid header vh-100 d-flex flex-column justify-content-center align-items-center">
+    
+    <div class="header container-fluid header vh-100 d-flex flex-column justify-content-center align-items-center">
         <h1 class="display-4">Praktyka Okiem Informatyka</h1>
         <hr style="width: 60%; border-color: white;">
     </div>
-    -->
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-2">
-                <nav class="navbar-vertical">
+                <nav id="navbar-vertical" class="navbar-vertical">
                     <ul>
                         <li>
                             <a href="#Home" class="Home-marker">Home</a>
@@ -49,14 +49,12 @@
             </div>
         
             <main class="col-lg-8">
-                <header class="vh-100 d-flex flex-column justify-content-center align-items-center">
-                    <section id="Home">
-                        <h1 class="display-4">Praktyka Okiem Informatyka</h1>
-                        <hr style="width: 100%;">
-                    </section>                    
+                <header id="Home" class="vh-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="display-4">Praktyka Okiem Informatyka</h1>
+                    <hr style="width: 100%;">                  
                 </header>
 
-                <article id="Praktyka" class="text-justify my-5" style="min-height: 50vh;">
+                <article id="Praktyka" class="my-5" style="min-height: 50vh;">
                     <h1>Praktyki? A co to takiego?</h1>
                     <hr>
                     <p>
@@ -73,7 +71,7 @@
                     </p>
                 </article>
 
-                <article id="Niemcy" class="text-justify my-5" style="min-height: 50vh;">
+                <article id="Niemcy" class="my-5" style="min-height: 50vh;">
                     <h1>Niemcy? Tam się da żyć?</h1>
                     <h5>04/11/2019 - 29/11/2019</h5>
                     <hr>
@@ -158,7 +156,7 @@
                     </div>                       
                 </article>
 
-                <article id="Polska" class="text-justify my-5" style="min-height: 50vh;">
+                <article id="Polska" class="my-5" style="min-height: 50vh;">
                     <h1>No i Nasza kochana Polska!</h1>
                     <h5>2/12/2019 - 9/12/2019</h5>
                     <hr>
@@ -176,7 +174,7 @@
                     </div>                                     
                 </article>
 
-                <article id="Galeria" class="text-justify my-5 vh-100">
+                <article id="Galeria" class="my-5" style="min-height: 50vh;">
                     <h1>A masz jakieś zdjęcia?</h1>
                     <hr>
                     <p>
@@ -184,17 +182,17 @@
                     </p>
 
                     <div class="container-fluid d-flex flex-column align-items-center mt-5">
-                        <div id="carouselExampleIndicators" class="carousel slide w-75" data-ride="carousel">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="width: 90%;">
                             <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="5"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="6"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="7"></li>
+                                <li data-target="#carouselExampleFade" data-slide-to="8"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -228,11 +226,11 @@
                                 <img class="d-block w-100" src="resources/img/slider/boeing.jpg" alt="10th slide">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
@@ -240,7 +238,7 @@
                     </div>                  
                 </article>
 
-                <article id="Kontakt" class="text-justify my-5" style="min-height: 90vh;">
+                <article id="Kontakt" class="my-5" style="min-height: 90vh;">
                     <h1>Kontakt?</h1>
                     <hr>
                     <p>
@@ -270,7 +268,7 @@
                 </article>
             </main>
         
-            <div class="col-lg-2 d-flex flex-column align-items-center">
+            <div id="navbar-horizontal" class="col-lg-2 d-flex flex-column align-items-center">
                 <nav class="navbar-horizontal d-flex flex-column align-items-center justify-content-center">
                     <p>Made By Piotr Reclik</p>
                     <p>&copy; All rights reserved.</p>
@@ -286,5 +284,29 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(function() {
+
+            function showNavbars() {
+                var header = $('.header'),
+                reachPoint = $('#Praktyka'),
+                navbarHorizontal = $('#navbar-horizontal'),
+                navbarVertical = $('#navbar-vertical');
+
+                if (reachPoint.offset().top() <= $(window).scrollTop()+$(window).height()){
+                    navbarHorizontal.hide();
+                    navbarVertical.hide();
+                }
+                else{
+                    navbarHorizontal.show();
+                    navbarVertical.show();
+                }
+            }
+
+            $(window).scroll(function() {
+                showNavbars();
+            });
+        });
+    </script>
 </body>
 </html>

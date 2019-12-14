@@ -7,6 +7,14 @@ html, body{
     font-family: 'Raleway', sans-serif !important;
 }
 
+header {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
 .header{
     width: 100%;
     color: white;
@@ -17,10 +25,6 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-header{
-    text-align: center;
 }
 
 .navbar-vertical{
@@ -86,6 +90,10 @@ header{
 }
 
 @media (max-width: 991.98px) {
+
+    h1:not(header h1){
+        text-align: left !important;
+    }
 
     .navbar-vertical{
         display: none;
